@@ -1,0 +1,51 @@
+#home {
+    background: url('./assets/logo.png') rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    min-height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CSS */
+.button-32 {
+    background-color: #c86f17;
+    justify-content: center;
+    border-radius: 12px;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-32:not(:disabled):hover,
+  .button-32:not(:disabled):focus {
+    outline: 0;
+    background: #cd2609;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+  }
+  
+  .button-32:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+  }
+
+  .cent {
+    text-align:center;
+    width:300px;
+    height:300px;
+    line-height:300px;
+    text-align:center;
+    }
+  
